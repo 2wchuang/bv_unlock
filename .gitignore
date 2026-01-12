@@ -11,3 +11,5 @@
 /.idea/migrations.xml
 /.idea/codeStyles/
 .idea/
+*.jks
+/signing/
