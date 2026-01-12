@@ -43,7 +43,8 @@ jobs:
       - name: Add jks file
         run: |
           echo ${{ secrets.SIGN_KEY }} > ./encoded_key
-          base64 -Dd -i encoded_key > key.jks
+          mkdir -p signing
+          base64 -Dd -i encoded_key > signing/release.jks
 
       - name: Build apk
         run: ./gradlew assembleDefaultAlpha assembleDefaultDebug
