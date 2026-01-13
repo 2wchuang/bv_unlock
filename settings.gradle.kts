@@ -22,7 +22,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "BV"
 include(":app")
-include(":app:mobile")
 include(":app:shared")
 include(":app:tv")
 include(":bili-api")
@@ -33,7 +32,6 @@ include(":libs:ffmpegDecoder")
 include(":libs:libVLC")
 include(":player")
 include(":player:core")
-include(":player:mobile")
 include(":player:shared")
 include(":player:tv")
 include(":utils")

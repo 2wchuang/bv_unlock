@@ -60,8 +60,11 @@ java {
 }
 
 dependencies {
+
     api(project(":player:core"))
+
     api(project(":player:shared"))
-    api(project(":player:mobile"))
+
     api(project(":player:tv"))
+
 }
